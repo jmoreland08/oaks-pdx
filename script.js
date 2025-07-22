@@ -81,7 +81,7 @@ const saladsAndSoups = [
   {
       name: "The Beet",
       price: "13",
-      description: "roasted beets, arugula, pomegranate molasses, toasted pepitas, roasted red peppers and goat cheese with red wine vinaigrette"
+      description: "roasted beets, arugula, roasted red peppers, pomegranate molasses, toasted pepitas and goat cheese with red wine vinaigrette"
   },
   {
       name: "The Soup - cup $5 bowl $7",
