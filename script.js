@@ -146,6 +146,10 @@ const sandwiches = [
       price: "16",
       description: "marinated chicken breast, bacon, arugula aioli, avocado crema, mayo, red onion, tomato and swiss on ciabatta"
   },
+  {   name: "The Cubano",
+      price: "16",
+      description: "mojo pork, ham, pickles, mayo, mustard and swiss on a pressed french roll"
+  },
   {
       name: "The Dip",
       price: "16",
