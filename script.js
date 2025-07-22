@@ -108,7 +108,7 @@ const acornsAndGrandOaks = [
       description: "burger patty with cheddar"
   },
   {
-      name: "Chicken Tenders",
+      name: "Chicken Fingers",
       price: "9",
       description: "bbq sauce or ranch"
   },
