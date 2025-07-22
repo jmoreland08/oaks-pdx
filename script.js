@@ -33,6 +33,10 @@ const appsAndShares = [
       price: "10",
       description: "bavarian soft pretzel rods with beer cheese and stoneground mustard"
   },
+  {   name: "The Nachos",
+      price: "12",
+      description: "house made tortilla chips tossed in oaks dust, beer cheese, pickled jalapeños, olives, red onion, scallions, tomato with salsa and sour cream",
+      addons: "add bacon 3, chicken 5, pulled pork 5",
   {
       name: "The Sticks",
       price: "12",
