@@ -140,7 +140,12 @@ const sandwiches = [
   {   name: "The Bodega",
       price: "16",
       description: "chopped cheese, seasoned ground beef, caramelized onion, tomato, lettuce, mayo on a french roll"
-  }, 
+  },
+  {   name: "The Burrito",
+      price: "12",
+      description: "eggs, tater tots, avocado crema, cheese in a flour tortilla with chips and salsa",
+      addons: "add bacon 3, sausage 3, veggie sausage 5",
+  },
   {
       name: "The Club",
       price: "16",
