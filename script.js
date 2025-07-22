@@ -141,6 +141,10 @@ const sandwiches = [
       price: "16",
       description: "chopped cheese, seasoned ground beef, caramelized onion, tomato, lettuce, mayo on a french roll"
   }, 
+  {   name: "The Chick",
+      price: "16",
+      description: "hand breaded, fried chicken cutlet, arugula, tomato-garlic oil and mozzarella on ciabatta"
+  },
   {
       name: "The Club",
       price: "16",
