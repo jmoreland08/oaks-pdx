@@ -146,14 +146,6 @@ const sandwiches = [
       description: "eggs, tater tots, avocado crema, cheese in a flour tortilla with chips and salsa",
       addons: "add bacon 3, sausage 3, veggie sausage 5",
   },
-  {   name: "The Cap",
-      price: "14",
-      description: "house made pastrami, pickles, yellow mustard on a french roll brushed with au jus"
-  },
-  {   name: "The Chick",
-      price: "16",
-      description: "hand breaded, fried chicken cutlet, arugula, tomato-garlic oil and mozzarella on ciabatta"
-  },
   {
       name: "The Club",
       price: "16",
@@ -172,7 +164,7 @@ const sandwiches = [
       name: "The Melt",
       price: "11",
       description: "four-cheese grilled cheese on sourdough with tomato-garlic oil",
-      addons: "add bacon 3, burger 5, chicken 5, ham 3, pulled pork 5"
+      addons: "add bacon 3, burger 5, chicken 5, pulled pork 5"
   },
   {
       name: "The Plant",
@@ -237,19 +229,19 @@ const cocktails = [
       description: "wild roots marionberry, cock’n bull ginger beer - rocks, bucket, lime wedge"
   },
   {
-      name: "The Negroni",
+      name: "The Sellwood High",
       price: "12",
-      description: "aria, campari, sweet vermouth - rocks, bucket, orange peel"
+      description: "woodford reserve, soda, orange bitters - rocks, highball, orange peel"
   },
   {
-      name: "The Old Fashioned",
-      price: "12",
-      description: "buffalo trace, angostura, simple - rocks, bucket, orange peel"
-  },
-  {
-      name: "The Vesper",
+      name: "The Tartine",
       price: "14",
-      description: "bombay sapphire, ketel one, lillet blanc - shaken, martini, lemon peel"
+      description: "aria, aperol, pamplemousse, lemon, simple, soda - rocks, highball, lemon peel"
+  },
+  {
+      name: "The Waverley",
+      price: "12",
+      description: "tito's, iced tea, lemonade - rocks, highball, lemon peel"
   }
 ];
 
