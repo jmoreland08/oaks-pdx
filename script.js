@@ -146,6 +146,14 @@ const sandwiches = [
       description: "eggs, tater tots, avocado crema, cheese in a flour tortilla with chips and salsa",
       addons: "add bacon 3, sausage 3, veggie sausage 5",
   },
+  {   name: "The Cap",
+      price: "14",
+      description: "house made pastrami, pickles, yellow mustard on a french roll brushed with au jus"
+  },
+  {   name: "The Chick",
+      price: "16",
+      description: "hand breaded, fried chicken cutlet, arugula, tomato-garlic oil and mozzarella on ciabatta"
+  },
   {
       name: "The Club",
       price: "16",
@@ -164,7 +172,7 @@ const sandwiches = [
       name: "The Melt",
       price: "11",
       description: "four-cheese grilled cheese on sourdough with tomato-garlic oil",
-      addons: "add bacon 3, burger 5, chicken 5, pulled pork 5"
+      addons: "add bacon 3, burger 5, chicken 5, ham 3, pulled pork 5"
   },
   {
       name: "The Plant",
