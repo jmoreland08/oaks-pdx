@@ -13,7 +13,7 @@ const appsAndShares = [
   },
   {
       name: "The Chips",
-      price: "5",
+      price: "7",
       description: "house made tortilla chips tossed in Oaks Dust with house made salsa",
       addons: "add beer cheese 3, chicken 5, pulled pork 5"
   },
@@ -24,28 +24,29 @@ const appsAndShares = [
       addons: "add beer cheese 3, bacon 3, pulled pork 5"
   },
   {
-      name: "The Rings",
-      price: "8",
-      description: "hand sliced and beer battered with Oaks bbq sauce"
+      name: "The Poppers",
+      price: "12",
+      description: "bacon wrapped jalapeños, scallions & cream cheese with ranch"
   },
   {
       name: "The Pretzels",
       price: "10",
       description: "bavarian soft pretzel rods with beer cheese and stoneground mustard"
   },
-  {   name: "The Nachos",
+  {   
+      name: "The Nachos",
       price: "12",
       description: "house made tortilla chips tossed in oaks dust, beer cheese, pickled jalapeños, olives, red onion, scallions, tomato with salsa and sour cream",
       addons: "add bacon 3, chicken 5, pulled pork 5",
   },
   {
       name: "The Sticks",
-      price: "12",
+      price: "11",
       description: "hand breaded, deep fried mozzarella with tomato-garlic oil"
   },
   {
       name: "The Tacos",
-      price: "10",
+      price: "11",
       description: "slow cooked pulled pork, onions, cilantro on corn tortillas with salsa"
   },
   {
@@ -80,8 +81,13 @@ const saladsAndSoups = [
   },
   {
       name: "The Beet",
-      price: "13",
+      price: "14",
       description: "roasted beets, arugula, roasted red peppers, pomegranate molasses, toasted pepitas and goat cheese with red wine vinaigrette"
+  },
+  {
+      name: "The Squash",
+      price: "15",
+      description: "butternut squash, spinach, bacon, mushroom, red onion, roasted hazelnuts & goat cheese with a warm bacon vinaigrette"
   },
   {
       name: "The Soup - cup $5 bowl $7",
@@ -104,7 +110,7 @@ const saladsAndSoups = [
 const acornsAndGrandOaks = [
   {
       name: "Cheeseburger",
-      price: "9",
+      price: "10",
       description: "burger patty with cheddar"
   },
   {
@@ -116,6 +122,11 @@ const acornsAndGrandOaks = [
       name: "Corndog",
       price: "9",
       description: "served with ketchup"
+  },
+  {
+      name: "Grilled Cheese",
+      price: "8",
+      description: "texas toast & cheddar"
   },
   {
       name: "Mac and Cheese",
@@ -133,7 +144,7 @@ const sandwiches = [
       addons: "add american, bleu, cheddar, goat, provolone, swiss 1, pickled jalapeños, caramelized onions 1, fried egg, sautéed mushrooms 2, bacon 3, burger patty 5"
   },
   {
-      name: "The B.L.T.",
+      name: "The B.L.T.A.",
       price: "15",
       description: "bacon, arugula, tomato, avocado crema, mayo on sourdough"
   },
@@ -150,7 +161,7 @@ const sandwiches = [
   },
   {   
       name: "The Cap",
-      price: "14",
+      price: "15",
       description: "house made pastrami, pickles, yellow mustard on a french roll brushed with au jus"
   },
   {
@@ -160,12 +171,12 @@ const sandwiches = [
   },
   {   
       name: "The Club",
-      price: "16",
+      price: "17",
       description: "marinated chicken breast, bacon, arugula aioli, avocado crema, mayo, red onion, tomato and swiss on ciabatta"
   },
   {   
       name: "The Cubano",
-      price: "16",
+      price: "17",
       description: "mojo pork, ham, pickles, mayo, mustard and swiss on a pressed french roll"
   },
   {
@@ -173,15 +184,20 @@ const sandwiches = [
       price: "16",
       description: "house roasted turkey breast, caramelized onions, mayo, sautéed mushrooms and swiss on a french roll with turkey jus"
   },
+  {  
+      name: "The Gus",
+      price: "15",
+      description: "chicken, bacon, cheddar, monterey jack quesadilla with salsa & sour cream á la carte"
+  },
   {
       name: "The Melt",
-      price: "11",
+      price: "12",
       description: "four-cheese grilled cheese on sourdough with tomato-garlic oil",
-      addons: "add bacon 3, burger 5, chicken 5, pulled pork 5"
+      addons: "add bacon 3, burger 5, chicken 5, ham 3, pulled pork 5, tomato 1"
   },
   {
       name: "The Plant",
-      price: "14",
+      price: "15",
       description: "roasted eggplant, arugula aioli, chimichurri, roasted red peppers, tomato and provolone on ciabatta"
   },
   {
@@ -191,12 +207,12 @@ const sandwiches = [
   },
   {
       name: "The Reuben",
-      price: "16",
+      price: "17",
       description: "house made pastrami, russian dressing, sauerkraut and swiss on rye"
   },
   {
       name: "The Rachel",
-      price: "16",
+      price: "17",
       description: "slow roasted turkey breast, russian dressing, slaw and swiss on rye"
   }
 ];
@@ -222,38 +238,53 @@ const suppers = [
 // Cocktails data
 const cocktails = [
   {
-      name: "The Brooklyn",
-      price: "14",
-      description: "rittenhouse rye, china-china, luxardo, dry vermouth - chilled, coupe, maraschino cherry"
-  },
-  {
       name: "The Bybee",
-      price: "14",
+      price: "12",
       description: "smirnoff citrus, chambord, lemon - shaken, martini, sugar rim"
   },
   {
-      name: "The Cadillac",
-      price: "12", 
+      name: "The Caddie",
+      price: "13", 
       description: "espolón, grand marnier, triple sec, lime, simple - rocks, bucket, lime wedge"
+  },
+  {   
+      name: "The Fall Spice",
+      price: "12",
+      description: "sailor jerry, tuaca, cock'n bull, apple, lemon, simple - shaken, coupe, cinnamon stick"
+  },
+  {
+      name: "The Milwaukie Blvd",
+      price: "13",
+      description: "rittenhouse rye, campari, sweet vermouth - stirred, coupe, lemon peel"
+  },
+  {
+      name: "The Oaks Fashioned",
+      price: "11",
+      description: "buffalo trace, simple, angostura & regan's bitters - rocks, bucket, orange peel"
   },
   {
       name: "The Oregon Mule",
-      price: "12",
+      price: "11",
       description: "wild roots marionberry, cock’n bull ginger beer - rocks, bucket, lime wedge"
   },
   {
-      name: "The Sellwood High",
+      name: "The Partner",
       price: "12",
+      description: "hendrick's, carpano bianco, regan's bitters - stirred, martini, orange peel"
+  },
+  {
+      name: "The Sellwood High",
+      price: "11",
       description: "woodford reserve, soda, orange bitters - rocks, highball, orange peel"
   },
   {
       name: "The Tartine",
-      price: "14",
+      price: "13",
       description: "aria, aperol, pamplemousse, lemon, simple, soda - rocks, highball, lemon peel"
   },
   {
       name: "The Waverley",
-      price: "12",
+      price: "11",
       description: "tito's, iced tea, lemonade - rocks, highball, lemon peel"
   }
 ];
@@ -311,8 +342,8 @@ const tequila = [
   { name: "Cazadores Reposado", price: "8" },
   { name: "El Jimador Blanco", price: "8" },
   { name: "Espólon Blanco", price: "8" },
-  { name: "Herradura Silver", price: "10" },
-  { name: "Hornitos Reposado", price: "8" }
+  { name: "Herradura Añejo", price: "13" },
+  { name: "Del Maguey Vida Mezcal", price: "10" }
 ];
 
 // Rum data
@@ -327,7 +358,7 @@ const beverages = [
   { name: "Roaming Nobles N/A Pils", price: "7" },
   { name: "Rose City Fizz N/A Cocktail", price: "9" },
   { name: "Ablis CBD Cran Blood Orange ", price: "7" },
-  { name: "Brew Dr. Kombucha Superberry", price: "6" },
+  { name: "Humm Mango Passionfruit Kombucha", price: "6" },
   { name: "Iced Tea, Lemonade,RC Cola, Diet RC Cola, Ginger Beer, Root Beer, 7UP, Apple, Cranberry, Grapefruit,Orange", price: "3" }
 ];
 
