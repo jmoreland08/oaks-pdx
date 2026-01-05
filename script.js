@@ -9,17 +9,17 @@ const appsAndShares = [
       name: "The Totchos",
       price: "12",
       description: "tots, cheddar and monterey jack, pickled jalapeños, olives, red onion, scallions, tomato with salsa and sour cream",
-      addons: "add bacon 3, chicken 5, pulled pork 5"
+      addons: "add bacon 3, chicken 6, pulled pork 5"
   },
   {
       name: "The Chips",
       price: "7",
       description: "house made tortilla chips tossed in Oaks Dust with house made salsa",
-      addons: "add beer cheese 3, chicken 5, pulled pork 5"
+      addons: "add beer cheese 3"
   },
   {
       name: "The Fries",
-      price: "6",
+      price: "7",
       description: "hand cut and tossed in Oaks Dust",
       addons: "add beer cheese 3, bacon 3, pulled pork 5"
   },
@@ -37,26 +37,26 @@ const appsAndShares = [
       name: "The Nachos",
       price: "12",
       description: "house made tortilla chips tossed in oaks dust, beer cheese, pickled jalapeños, olives, red onion, scallions, tomato with salsa and sour cream",
-      addons: "add bacon 3, chicken 5, pulled pork 5",
+      addons: "add bacon 3, chicken 6, pulled pork 5",
   },
   {
       name: "The Sticks",
-      price: "11",
+      price: "12",
       description: "hand breaded, deep fried mozzarella with tomato-garlic oil"
   },
   {
       name: "The Tacos",
-      price: "11",
+      price: "12",
       description: "slow cooked pulled pork, onions, cilantro on corn tortillas with salsa"
   },
   {
       name: "The Tenders",
-      price: "14",
+      price: "15",
       description: "fried chicken strips, tossed in Oaks Dust with fries"
   },
   {
       name: "The Wings",
-      price: "14",
+      price: "15",
       description: "dry rub or tossed in sauce with bleu cheese or ranch - Oaks bbq sauce, buffalo Oaks sauce"
   }
 ];
@@ -100,7 +100,7 @@ const saladsAndSoups = [
       description: "vegetarian with sour cream and cheese"
   },
   {
-      name: "The Combo - cup $12 bowl $14",
+      name: "The Combo - cup $13 bowl $15",
       
       description: "mixed greens with soup or chili and bread"
   }
@@ -154,12 +154,6 @@ const sandwiches = [
       description: "chopped cheese, seasoned ground beef, caramelized onion, tomato, lettuce, mayo on a french roll"
   },
   {   
-      name: "The Burrito",
-      price: "12",
-      description: "eggs, tater tots, avocado crema, cheese in a flour tortilla with chips and salsa",
-      addons: "add bacon 3, sausage 3, veggie sausage 5",
-  },
-  {   
       name: "The Cap",
       price: "15",
       description: "house made pastrami, pickles, yellow mustard on a french roll brushed with au jus"
@@ -184,6 +178,11 @@ const sandwiches = [
       price: "16",
       description: "house roasted turkey breast, caramelized onions, mayo, sautéed mushrooms and swiss on a french roll with turkey jus"
   },
+  {
+      name: "The Gennaro",
+      price: "16",
+      description: "sausage, peppers, onions, arugula aioli, chimichurri and provolone on a french roll"
+  },           
   {  
       name: "The Gus",
       price: "15",
@@ -193,7 +192,7 @@ const sandwiches = [
       name: "The Melt",
       price: "12",
       description: "four-cheese grilled cheese on sourdough with tomato-garlic oil",
-      addons: "add bacon 3, burger 5, chicken 5, ham 3, pulled pork 5, tomato 1"
+      addons: "add bacon 3, burger 6, chicken 6, ham 3, pulled pork 5, tomato 1"
   },
   {
       name: "The Plant",
@@ -221,7 +220,7 @@ const sandwiches = [
 const suppers = [
   {
       name: "The Fish and Chips",
-      price: "18",
+      price: "20",
       description: "beer battered, pacific rockfish, fries, slaw with tartar sauce"
   },
   {
