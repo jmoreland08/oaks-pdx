@@ -237,6 +237,11 @@ const suppers = [
 // Cocktails data
 const cocktails = [
   {
+      name: "The Apple Pie",
+      price: "11",
+      description: "tuaca, hot apple cider,whipped cream"
+  },
+  {
       name: "The Bybee",
       price: "12",
       description: "smirnoff citrus, chambord, lemon - shaken, martini, sugar rim"
@@ -247,14 +252,9 @@ const cocktails = [
       description: "espolón, grand marnier, triple sec, lime, simple - rocks, bucket, lime wedge"
   },
   {   
-      name: "The Fall Spice",
+      name: "The Muddy York",
       price: "12",
-      description: "sailor jerry, tuaca, cock'n bull, apple, lemon, simple - shaken, coupe, cinnamon stick"
-  },
-  {
-      name: "The Milwaukie Blvd",
-      price: "13",
-      description: "rittenhouse rye, campari, sweet vermouth - stirred, coupe, lemon peel"
+      description: "rittenhouse rye, fernet branca, simple, angostura - stirred, coupe, orange peel"
   },
   {
       name: "The Oaks Fashioned",
@@ -267,14 +267,14 @@ const cocktails = [
       description: "wild roots marionberry, cock’n bull ginger beer - rocks, bucket, lime wedge"
   },
   {
-      name: "The Partner",
-      price: "12",
-      description: "hendrick's, carpano bianco, regan's bitters - stirred, martini, orange peel"
+     name: "The Redrum",
+     price: "13",
+     description: "sailor jerry, aperol, carpano bianco, cranberry - stirred, coupe, lemon peel"
   },
   {
-      name: "The Sellwood High",
-      price: "11",
-      description: "woodford reserve, soda, orange bitters - rocks, highball, orange peel"
+      name: "The Sabrina Carpenter",
+      price: "12",
+      description: "borghetti espresso liquer, ketel one - shaken, martini, coffee bean"
   },
   {
       name: "The Tartine",
